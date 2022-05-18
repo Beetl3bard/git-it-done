@@ -54,7 +54,7 @@ var displayRepos = function(repos, searchTerm) {
         
         //create a container for each repo
         var repoEl=document.createElement("div");
-        repoEl.classList="list-item flex-row jusify-space-between align-center";
+        repoEl.classList="list-item flex-row justify-space-between align-center";
        
         //create a span element to hold the repository name
         var titleEl = document.createElement("span");
